@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: gen-bucketname
+Version: 1.0.0
+Summary: Package for generating bucketnames
+Author-email: Thomas Wolfis <thomas.wolfis@gmail.com>
+Project-URL: Homepage, https://github.com/TWolfis/gen-bucketname
+Project-URL: Bug Tracker, https://github.com/TWolfis/gen-bucketname/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# gen-bucketname.py 
+Generate a bucket name from a provided noun. 
+
+## usage
+
+```console 
+./gen-bucketname.py noun
+noun2023-01-31-10-24-45
+
+./gen-bucketname.py -h  
+usage: gen-bucketname.py [-h] noun
+
+positional arguments:
+  noun        noun to generate a unique bucket name from
+
+optional arguments:
+  -h, --help  show this help message and exit
+
+```

@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+src/__init__.py
+src/gen_bucketname.egg-info/PKG-INFO
+src/gen_bucketname.egg-info/SOURCES.txt
+src/gen_bucketname.egg-info/dependency_links.txt
+src/gen_bucketname.egg-info/top_level.txt
