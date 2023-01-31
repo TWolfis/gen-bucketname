@@ -1,6 +1,9 @@
 # gen-bucketname.py 
 Generate a bucket name from a provided noun. 
 
+## requirements
+Python3+ 
+
 ## usage
 
 ```console 
@@ -16,4 +19,11 @@ positional arguments:
 optional arguments:
   -h, --help  show this help message and exit
 
+```
+
+## installation
+
+```console
+git clone https://github.com/TWolfis/gen-bucketname.git
+sudo cp gen-bucketname/src/gen-bucketname.py /usr/local/bin/gen-bucketname
 ```
